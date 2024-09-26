@@ -1,0 +1,41 @@
+/* /styles/styles.css */
+body {
+    margin: 0;
+    background-color: black; /* Ensures the whole body is black */
+  }
+  
+  canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: black; /* Ensures the canvas is black */
+  }  
+
+  /* Global text color */
+body {
+  color: white;  /* Default text color */
+}
+
+/* HUD text styles */
+.hud p {
+display: none;
+}
+
+/* Button styles */
+.button {
+  color: white;
+  background-color: #333;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #555;  /* Lighter background on hover */
+}
+
+/* Ship management view */
+#shipManagementView {
+  color: white;  /* Set text color for ship management view */
+  font-family: Arial, sans-serif;
+}
